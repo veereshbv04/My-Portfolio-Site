@@ -8,7 +8,7 @@
     <title>Component Library</title>
 
     <!-- Linking styles.css sheet to componet.html -->
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
 
 </head>
 
@@ -61,7 +61,7 @@
         <li class="list-item-inline">Item Three</li>
     </ul>
     <h3>Reversed Ordered Lists</h3>
-    <ol>
+    <ol reversed>
         <li>one</li>
         <li>two</li>
         <li>three</li>
@@ -70,12 +70,18 @@
     <hr>
 
     <h2>@nav bar</h2>
-    <nav>
-        <div>I AM DEVELOPER</div>
-        <ul>
-            <li> <a href="#">Home</a> </li>
-            <li> <a href="#">Projects</a> </li>
-            <li> <a href="#">About </a> </li>
+    <nav class="navigation container">
+        <div class="nav-brand">I AM DEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                 <a class ="link link-active" href="#">Home</a> 
+            </li>
+            <li class="list-item-inline">
+                 <a class ="link" href="#">Projects</a>
+            </li>
+            <li class="list-item-inline"> 
+                <a class ="link" href="#">About </a>
+            </li>
         </ul>
     </nav>
 
@@ -116,6 +122,6 @@
     </footer>
 
 
-</body>
+    </body>
 
 </html>
