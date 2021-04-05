@@ -2,10 +2,13 @@
 
 :root{
     --primary-color:#6BF4F3;
+    --purple-header-color:#6D28D9;
+    --off-white:#A7F3D0;
 }
 
 body{
     font-family: 'Lexend', sans-serif;
+    margin: 0rem;
 }
 /** container **/
 .container {
@@ -71,4 +74,49 @@ hr{
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding: 1rem;
+    color: var(--purple-header-color);
+}
+
+/* sections */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.off-white{
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: purple;
+    border-top-right-radius: 2rem;
+
+}
+
+.footer .link{
+    color: blue;
 }
