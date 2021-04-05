@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+
+    <!-- Linking styles.css sheet to componet.html -->
+    <link href="styles.css" rel="stylesheet" />
+
+</head>
+
+<body">
+    <h1>Veeresh's Component Library</h1>
+    <p>I am making this component library so that it can be used across all my projects involving similar requirements.
+    </p>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is h1 heading</h1>
+    <h2>This is h2 heading</h2>
+    <h3>This is h3 heading</h3>
+    <h4>This is h4 heading</h4>
+    <p>This is the normal paragraph text ("p" html tag).It is free flowing and wrap at the end like in a paragraph</p>
+    <small>This made using "small" html tag. Useful for denoting date etc</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class=" container ">This is a fluid conatainer and it will go end to end pf the page.</div>
+
+    <h3>centered container</h3>
+    <div class="container container-centered">This is centered conatiner and it will go till the specified width.</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="link-primary link" href="#">Primary link</a>
+    <a class="link-secondary link" href="#">Secondary link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+    <h3>Unordered Lists</h3>
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+    <h3>Unordered Inline Lists</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item one</li>
+        <li class="list-item-inline">item Two</li>
+        <li class="list-item-inline">Item Three</li>
+    </ul>
+    <h3>Reversed Ordered Lists</h3>
+    <ol reversed>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav bar</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">I AM DEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                 <a class ="link link-active" href="#">Home</a> 
+            </li>
+            <li class="list-item-inline">
+                 <a class ="link" href="#">Projects</a>
+            </li>
+            <li class="list-item-inline"> 
+                <a class ="link" href="#">About </a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src='images/hero.svg' alt="Portfoilio main image">
+        <h1 class="hero-heading">Veeresh the <span style="color: var(--primary-color) ">Web Developer</span> </h1>
+    </header>
+
+    <hr>
+
+    <h2>@Section</h2>
+
+    <section class="section">
+        <div class="container container-centered" >
+            <h1>White section</h1>
+            <p>If you don't have a set of completely custom colors in mind for your project, you can curate your colors from our complete color palette by importing 'tailwindcss/colors' into your config file and choosing the colors you like.</p>
+        </div>
+        
+    </section>
+    <section class="section off-white">
+        <div class="container container-centered" >
+            <h1>Offwhite section</h1>
+            <p>If you don't have a set of completely custom colors in mind for your project, you can curate your colors from our complete color palette by importing 'tailwindcss/colors' into your config file and choosing the colors you like.</p>
+        </div>
+        
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div>Some small heading inside footer(you should not use heder tags in footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link"  href="#">SocialOne</a> 
+            </li>
+            <li  class="list-item-inline">
+                <a class="link"  href="#">SocialTwo</a> 
+            </li>
+            <li  class="list-item-inline">
+                <a class="link"  href="#">SocialThree</a> 
+            </li>
+        </ul>
+
+    </footer>
+
+
+    </body>
+
+</html>
