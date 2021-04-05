@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
 
+:root{
+    --primary-color:#6BF4F3;
+}
+
 body{
     font-family: 'Lexend', sans-serif;
 }
+/** container **/
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-centered{
+    max-width: 900px;
+    margin: auto;
+}
+
+/** links **/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    color: purple;
+}
+.link-secondary{
+    color:purple;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
