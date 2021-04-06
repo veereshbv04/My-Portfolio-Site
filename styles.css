@@ -78,12 +78,14 @@ hr{
     text-align: right;
 }
 
+
 .navigation .link{
     color: purple;
+    padding-left: auto;
 }
 
 .navigation .link-active{
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 /* header */
