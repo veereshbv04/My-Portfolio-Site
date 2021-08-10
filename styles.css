@@ -71,8 +71,19 @@ hr{
     border-bottom-left-radius: 1rem;
     
 }
+.navigation-blog{
+    background-color: var(--primary-color);
+    color: purple;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
 
 .navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation-blog .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -80,6 +91,10 @@ hr{
 .navigation .nav-pills{
     text-align: right;
 }
+.navigation-blog .nav-pills{
+    text-align: left;
+}
+
 
 
 .navigation .link{
