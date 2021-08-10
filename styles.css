@@ -155,7 +155,8 @@ hr {
 }
 
 .footer .link {
-    color: blue;
+    color: rgb(117, 67, 10);
+    font-weight: bold;
 }
 
 .footer .footer-header {
