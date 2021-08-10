@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
 
-:root{
-    --primary-color:#6BF4F3;
-    --purple-header-color:#6D28D9;
-    --off-white:#E5E7EB;
+:root {
+    --primary-color: #6BF4F3;
+    --purple-header-color: #6D28D9;
+    --off-white: #E5E7EB;
 }
 
-body{
+body {
     font-family: 'Lexend', sans-serif;
     margin: 0rem;
     line-height: 2rem;
@@ -16,7 +16,7 @@ body{
 
 /* space */
 
-.space{
+.space {
     margin-right: 2rem;
 }
 
@@ -26,99 +26,105 @@ body{
     padding-right: 1rem;
 }
 
-.container-centered{
+.container-centered {
     max-width: 900px;
     margin: auto;
 }
 
 /* hr */
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
 /** links **/
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
 }
-.link-primary{
+
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 00.5rem;
     color: purple;
 }
-.link-secondary{
-    color:purple;
+
+.link-secondary {
+    color: purple;
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
 
 /* list */
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
-.list-item-inline{
+
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5r;
 }
 
 /* navigation */
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: purple;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    
+
 }
-.navigation-blog{
+
+.navigation-blog {
     background-color: var(--primary-color);
     color: purple;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    
+
 }
 
-.navigation .nav-brand{
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-.navigation-blog .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-.navigation .nav-pills{
+.navigation-blog .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
     text-align: right;
 }
-.navigation-blog .nav-pills{
+
+.navigation-blog .nav-pills {
     text-align: left;
 }
 
 
 
-.navigation .link{
+.navigation .link {
     color: purple;
     padding-left: auto;
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bolder;
 }
 
 /* header */
-.hero{
+.hero {
     padding: 2rem;
     padding-top: 5rem;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     max-width: 350px;
     margin: auto;
     display: block;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     text-align: center;
     padding: 1rem;
     color: var(--purple-header-color);
@@ -126,20 +132,20 @@ hr{
 
 /* sections */
 
-.section{
+.section {
     padding: 2rem;
 }
 
-.section h1{
+.section h1 {
     text-align: center;
 }
 
-.off-white{
+.off-white {
     background-color: var(--off-white);
 }
 
 /* footer */
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -148,11 +154,11 @@ hr{
 
 }
 
-.footer .link{
+.footer .link {
     color: blue;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
